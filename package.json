@@ -1,0 +1,27 @@
+{
+  "name": "your-budget-tracker",
+  "version": "1.0.0",
+  "description": "This budget tracker helps you track your budget online and offline",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bwogi/your-budget-tracker.git"
+  },
+  "keywords": [],
+  "author": "Andrew Bwogi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Bwogi/your-budget-tracker/issues"
+  },
+  "homepage": "https://github.com/Bwogi/your-budget-tracker#readme",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "express": "^4.17.1",
+    "lite-server": "^2.6.1",
+    "mongoose": "^6.0.10",
+    "morgan": "^1.10.0"
+  }
+}

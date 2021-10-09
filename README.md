@@ -20,9 +20,9 @@ This budget tracker helps you track your budget online and offline
 
  
   ## Project Setup and Use
-  Clone the project;
+  * Clone the project;
   ```$ git clone <cloned repo>``` 
-  * initialise packages
+  * Initialise packages
   ```$ <inside the cloned repo folder>  npm install```
   * Start the server
   ```$ npm start```

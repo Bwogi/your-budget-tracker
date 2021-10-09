@@ -1,27 +1,27 @@
 {
-  "name": "your-budget-tracker",
+  "name": "budget-app",
   "version": "1.0.0",
-  "description": "This budget tracker helps you track your budget online and offline",
-  "main": "index.js",
+  "description": "",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "lite-server": "lite-server"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Bwogi/your-budget-tracker.git"
+    "url": "git+https://github.com/coding-boot-camp/unit18hw.git"
   },
-  "keywords": [],
-  "author": "Andrew Bwogi",
-  "license": "MIT",
+  "author": "",
+  "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Bwogi/your-budget-tracker/issues"
+    "url": "https://github.com/coding-boot-camp/unit18hw/issues"
   },
-  "homepage": "https://github.com/Bwogi/your-budget-tracker#readme",
+  "homepage": "https://github.com/coding-boot-camp/unit18hw#readme",
   "dependencies": {
     "compression": "^1.7.4",
     "express": "^4.17.1",
-    "lite-server": "^2.6.1",
-    "mongoose": "^6.0.10",
-    "morgan": "^1.10.0"
+    "mongoose": "^5.5.15",
+    "morgan": "^1.9.1"
   }
 }
